@@ -1,0 +1,486 @@
+body
+{
+ 	margin: 0px;
+ 	padding: 0px;
+ 	overflow-x:hidden;
+    background-color: #000;
+}
+header
+{
+ 	border-top:2px solid #FF9933;
+ 	background-color:#000033;
+ 	width:100%;
+ 	height:50px;
+}
+.background
+{
+ 	background-image: url("ss.jpg");
+ 	background-size:100% 110%;
+ 	width:100%;
+ 	height:100%;
+}
+.header-content 
+{
+ 	float:left;
+ 	padding-left:52px;
+ 	color:#FF9933;
+ 	cursor:pointer;
+}
+.icon
+{
+ 	float:right;
+ 	padding-top:15px;
+ 	padding-right:100px;
+}
+.icon li 
+{
+	margin-left:30px;
+ 	display:inline-block;
+}
+.icon li a
+{
+ 	margin-right:10px;
+ 	display:inline-block;
+ 	text-decoration:none;
+ 	color:white;
+ 	text-align:center;
+ 	cursor: pointer;
+ 	font-weight: bold;
+ 	padding-top: 5px;
+ 	padding-left: 5px;
+ 	padding-right: 5px;
+ 	padding-bottom: 5px;
+ 	border-radius: 15px;
+}
+.icon li a:hover
+{
+	background-color: #ff9933;
+ 	color:black;
+ 	transition:0.8s;
+}
+.menu
+{
+ 	background-color:#000033;
+ 	width:100%;
+ 	height:100px;
+ 	border-top:2px solid #FF9933;
+ 	border-bottom:2px solid #FF9933;
+}
+.logo
+{
+  	float:left;
+ 	position:relative;
+    padding-top:0px;
+ 	top:5px;
+ 	left:40px;
+}
+.logo:hover
+{
+ 	cursor:pointer;
+}
+.navbar ul
+{
+ 	margin-left:720px;
+}
+.navbar ul li
+{
+ 	display:inline-block;
+ 	margin-top:30px;
+}
+.navbar ul li a
+{
+ 	text-decoration:none;
+ 	font-weight:bold;
+ 	color:#FFFFFF;
+ 	padding-bottom:5.5px;
+ 	padding-left:22px;
+ 	padding-right:22px;
+ 	padding-top:10px;
+ 	border-radius: 15px;
+}
+.navbar ul li a:hover
+{
+ 	background-color:#FF9933;
+ 	color:black;
+ 	transition:0.8s;
+}
+.contain
+{
+ 	padding-top:400px;
+}
+.contain h3 
+{
+ 	color:white;
+ 	font-size:30px;
+}
+.contain h1
+{
+ 	color:#FF9933;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.room
+{
+ 	height:700px;
+ 	width:100%;
+ 	background-color:000033;
+ 	padding-top:200px;
+	padding-left:130px;
+}
+.left
+{
+ 	float:left;
+}
+.singleroom
+{
+ 	width:350px;
+ 	height:500px;
+ 	background-color:gray;
+ 	border:1px solid #ff9933;
+}
+.singleroom:hover
+{
+	background-color:000033;
+	cursor: pointer;
+	transition: 0.8s;
+}
+.srphoto img
+{
+    height:200px;
+ 	width:350px;
+}
+.middle
+{
+ 	float:left;
+}
+.doubleroom
+{
+ 	width:350px;
+ 	height:500px;
+ 	background-color:gray;
+ 	border:1px solid #ff9933;
+ 	margin-left:100px;
+}
+.doubleroom:hover
+{
+	background-color:000033;
+	cursor: pointer;
+	transition: 0.8s;
+}
+.drphoto img
+{
+    height:200px;
+ 	width:350px;
+}
+.right
+{
+ 	float:left;
+}
+.superdeluxeroom
+{
+ 	width:350px;
+ 	height:500px;
+	background-color:gray;
+	border:1px solid #ff9933;
+ 	margin-left:100px;
+}
+.superdeluxeroom:hover
+{
+	background-color:000033;
+	cursor: pointer;
+	transition: 0.8s;
+}
+.sdrphoto img
+{
+ 	height:200px;
+ 	width:350px;
+}
+.room1
+{
+ 	height:700px;
+ 	width:100%;
+ 	background-color:#000033;
+ 	padding-top:0px;
+ 	padding-left:130px;
+}
+.left1
+{
+ 	float:left;
+}
+.singleroom1
+{
+ 	width:350px;
+ 	height:500px;
+ 	background-color:gray;
+ 	border:1px solid #ff9933;
+}
+.singleroom1:hover
+{
+	background-color:000033;
+	cursor: pointer;
+	transition: 0.8s;
+}
+.srphoto1 img
+{ 
+ 	height:200px;
+ 	width:350px;
+}
+.middle1
+{
+ 	float:left;
+}
+.doubleroom1
+{
+ 	width:350px;
+ 	height:500px;
+ 	background-color:gray;
+ 	border:1px solid #ff9933;
+ 	margin-left:100px;
+}
+.doubleroom1:hover
+{
+	background-color:000033;
+	cursor: pointer;
+	transition: 0.8s;
+}
+.drphoto1 img
+{
+	height:200px;
+ 	width:350px;
+}
+.right1
+{
+ 	float:left;
+}
+.superdeluxeroom1
+{
+ 	width:350px;
+ 	height:500px;
+ 	background-color:gray;
+ 	border:1px solid #ff9933;
+ 	margin-left:100px;
+}
+.superdeluxeroom1:hover
+{
+	background-color:000033;
+	cursor: pointer;
+	transition: 0.8s;
+}
+.sdrphoto1 img
+{
+ 	height:200px;
+ 	width:350px;
+}
+.room h1
+{
+   	padding-top: 10px;
+	color:#FF9933;
+}
+.room h3
+{
+	padding-left: 10px;
+	padding-top:10px;
+	color:white;
+	font-weight: normal;
+}
+.room h2
+{
+	padding-left: 10px;
+	font-weight: bold;
+	color:#ff9933;
+}
+.room1 h1
+{
+	padding-top: 10px;
+	color:#FF9933;
+}
+.room1 h3
+{
+	padding-left: 10px;
+	padding-top:10px;
+	color:white;
+	font-weight: normal;
+}
+.room1 h2
+{
+	padding-left: 10px;
+	font-weight: bold;
+	color:#ff9933;
+}
+.button
+{
+	padding-top: 10px;
+	padding-left: 2px;
+	padding-right: 2px;
+	background-color:#cccccc;
+}
+.button:hover
+{
+	color:black;
+	background-color:#ff9933;
+	cursor: pointer;
+	transition: 0.8s;
+}
+.block
+{
+    border-top:2px solid #FF9933;
+	height: 350px;
+	width: 100px%;
+	background-color:#333333;
+}
+.blockcontain1
+{
+	width: 30%;
+}
+.lastlogo
+{
+  	float:left;
+ 	position:relative;
+    padding-top:20px;
+ 	top:5px;
+ 	left:50px;
+}
+.lastlogo:hover
+{
+ 	cursor:pointer;
+}
+.lastlogo h3
+{
+	color:white;
+	font-weight: normal;
+	margin-top: 50px; 
+}
+.blockcontain2
+{
+	width: 20%;
+	float: left;
+	margin-left: 250px;
+	margin-top: 20px;
+}
+.blockcontain2 h1
+{
+  	color:#ff9933;
+  	font-weight: bold;
+}
+.blockcontain2 h3
+{
+	margin:10px;
+	color:white;
+	font-weight: normal;
+}
+.blockcontain2:hover
+{
+ 	cursor:pointer;
+}
+.blockcontain3
+{
+	float:left;
+	margin-top: 20px;
+	margin-left: 150px;
+}
+.blockcontain3 h1
+{
+	color:#ff9933;
+	font-weight: bold;
+}
+.blockcontain3 h3
+{
+	color:white;
+	font-weight: normal;
+}
+.blockcontain3:hover
+{
+ 	cursor:pointer;
+}
+.lastmenu
+{
+ 	position:absolute;
+ 	background-color:#333333;
+ 	width:100%;
+ 	height:100px;
+ 	border-top:2px solid #FF9933;;
+	border-bottom:2px solid  #FF9933;
+}
+.lasticon
+{
+ 	float:left;
+ 	padding-top:45px;
+ 	padding-left: 100px;
+}
+.lasticon li
+{
+  	margin-left:30px;
+ 	display:inline-block;
+}
+.lasticon li a
+{
+ 	margin-right:10px;
+ 	display:inline-block;
+ 	text-decoration:none;
+ 	color:white;
+ 	text-align:center;
+}
+ .lasticon li a:hover
+{
+ 	color:#FF9933;
+ 	transition:0.8s;
+}
+.lastnavbar ul
+{
+ 	margin-left:600px;
+}
+.lastnavbar ul li
+{
+ 	display:inline-block;
+ 	margin-top:30px;
+}
+.lastnavbar ul li a
+{
+ 	text-decoration:none;
+ 	font-weight:bold;
+ 	color:#FFFFFF;
+ 	padding-bottom:5.5px;
+ 	padding-left:22px;
+ 	padding-right:22px;
+	padding-top:10px;
+	border-radius: 15px;
+}
+.lastnavbar ul li a:hover
+{
+ 	background-color:#FF9933;
+	color:black;
+ 	transition:0.8s;
+}
+

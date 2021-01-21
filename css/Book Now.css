@@ -1,0 +1,332 @@
+body
+{
+ 	margin: 0px;
+ 	padding: 0px;
+ 	overflow-x:hidden;
+    background-color: #000033;
+}
+header
+{
+ 	border-top:2px solid #FF9933;
+ 	background-color:#000033;
+ 	width:100%;
+ 	height:50px;
+}
+.background
+{
+ 	background-image: url("ss.jpeg");
+ 	background-size:100% 110%;
+ 	width:100%;
+ 	height:100%;
+}
+.header-content 
+{
+ 	float:left;
+ 	padding-left:52px;
+ 	color:#FF9933;
+ 	cursor:pointer;
+}
+.icon
+{
+ 	float:right;
+ 	padding-top:15px;
+ 	padding-right:100px;
+}
+.icon li 
+{
+	margin-left:30px;
+ 	display:inline-block;
+}
+.icon li a
+{
+ 	margin-right:10px;
+ 	display:inline-block;
+ 	text-decoration:none;
+ 	color:white;
+ 	text-align:center;
+ 	cursor: pointer;
+ 	font-weight: bold;
+ 	padding-top: 5px;
+ 	padding-left: 5px;
+ 	padding-right: 5px;
+ 	padding-bottom: 5px;
+ 	border-radius: 15px;
+}
+.icon li a:hover
+{
+	background-color: #ff9933;
+ 	color:black;
+ 	transition:0.8s;
+}
+.menu
+{
+ 	background-color:#000033;
+ 	width:100%;
+ 	height:100px;
+ 	border-top:2px solid #FF9933;
+ 	border-bottom:2px solid #FF9933;
+}
+.logo
+{
+  	float:left;
+ 	position:relative;
+    padding-top:0px;
+ 	top:5px;
+ 	left:40px;
+}
+.logo:hover
+{
+ 	cursor:pointer;
+}
+.navbar ul
+{
+ 	margin-left:720px;
+}
+.navbar ul li
+{
+ 	display:inline-block;
+ 	margin-top:30px;
+}
+.navbar ul li a
+{
+ 	text-decoration:none;
+ 	font-weight:bold;
+ 	color:#FFFFFF;
+ 	padding-bottom:5.5px;
+ 	padding-left:22px;
+ 	padding-right:22px;
+ 	padding-top:10px;
+ 	border-radius: 15px;
+}
+.navbar ul li a:hover
+{
+ 	background-color:#FF9933;
+ 	color:black;
+ 	transition:0.8s;
+}
+.title
+{
+    margin-top:100px; 
+    color: #ff9933;
+    font-weight: bold;
+    font-size: 30px;
+}
+.loginbox
+{ 
+   background-color: #000033;
+   width:100%;
+   height:700px;
+}
+.loginbox h3
+{
+   color:#ff9933;
+   margin-top: 100px;
+}
+.block1
+{
+    margin-left: 50px;
+	  background-color: gray;
+    float: left;
+	  width:46.7%;
+	  height:450px;
+    box-sizing:border-box;
+    padding:40px 30px;
+    font-size:20px;
+    margin-top: 50px;
+}
+.block1 p
+{
+  margin:10px;
+  padding-top: 10px;
+}
+.block1 p
+{
+  font-weight: bold;
+  color:#ff9933;
+  margin-left: 102px;
+}
+.block1 input
+{
+  margin-left: 100px;
+  width:80%;
+  margin-bottom: 10px;
+}
+.loginbox input[type="submit"]
+{
+ position: absolute;
+ border:none;
+ outline:none;
+ height:25px;
+ width: 150px;
+ background:white;
+ font-size:20px;
+ border-radius: 10px;
+ margin-top: 30px;
+ margin-left: 590px;
+ cursor: pointer;
+}
+.loginbox input[type="submit"]:hover
+{
+  background:#ff9933;
+  transition: 1s;
+}
+.block2
+{
+    margin-right: 50px;
+    background-color: gray;
+    float: right;
+    width:46.71%;
+    height:450px;
+    box-sizing:border-box;
+    padding:40px 30px;
+    font-size:20px;
+    margin-top: 50px;
+}
+.block2 p
+{
+  margin:10px;
+  padding-top: 10px;
+}
+.block2 p
+{
+  font-weight: bold;
+  color:#ff9933;
+  margin-left: 2px;
+}
+.block2 input
+{
+  width:80%;
+  margin-bottom: 10px;
+}
+
+.block
+{
+    border-top:2px solid #FF9933;
+  height: 350px;
+  width: 100px%;
+  background-color:#333333;
+}
+.blockcontain1
+{
+  width: 30%;
+}
+.lastlogo
+{
+    float:left;
+  position:relative;
+    padding-top:20px;
+  top:5px;
+  left:50px;
+}
+.lastlogo:hover
+{
+  cursor:pointer;
+}
+.lastlogo h3
+{
+  color:white;
+  font-weight: normal;
+  margin-top: 50px; 
+}
+.blockcontain2
+{
+  width: 20%;
+  float: left;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+.blockcontain2 h1
+{
+    color:#ff9933;
+    font-weight: bold;
+}
+.blockcontain2 h3
+{
+  margin:10px;
+  color:white;
+  font-weight: normal;
+}
+.blockcontain2:hover
+{
+  cursor:pointer;
+}
+.blockcontain3
+{
+  float:left;
+  margin-top: 20px;
+  margin-left: 150px;
+}
+.blockcontain3 h1
+{
+  color:#ff9933;
+  font-weight: bold;
+}
+.blockcontain3 h3
+{
+  color:white;
+  font-weight: normal;
+}
+.blockcontain3:hover
+{
+  cursor:pointer;
+}
+.lastmenu
+{
+  position:absolute;
+  background-color:#333333;
+  width:100%;
+  height:100px;
+  border-top:2px solid #FF9933;;
+  border-bottom:2px solid  #FF9933;
+}
+.lasticon
+{
+  float:left;
+  padding-top:45px;
+  padding-left: 100px;
+}
+.lasticon li
+{
+    margin-left:30px;
+  display:inline-block;
+}
+.lasticon li a
+{
+  margin-right:10px;
+  display:inline-block;
+  text-decoration:none;
+  color:white;
+  text-align:center;
+}
+ .lasticon li a:hover
+{
+  color:#FF9933;
+  transition:0.8s;
+}
+.lastnavbar ul
+{
+  margin-left:600px;
+}
+.lastnavbar ul li
+{
+  display:inline-block;
+  margin-top:30px;
+}
+.lastnavbar ul li a
+{
+  text-decoration:none;
+  font-weight:bold;
+  color:#FFFFFF;
+  padding-bottom:5.5px;
+  padding-left:22px;
+  padding-right:22px;
+  padding-top:10px;
+  border-radius: 15px;
+}
+.lastnavbar ul li a:hover
+{
+  background-color:#FF9933;
+  color:black;
+  transition:0.8s;
+}
+
